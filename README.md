@@ -58,7 +58,8 @@ _This README was generated with ❤️ by [readme-md-generator](https://github.c
 
 13. Run a for loop to see the blockchain
 
-13. RUN go run main.go
+13. RUN go run main.go 
+See Issues for supportive images.
 
 ```
 ## Part 2
