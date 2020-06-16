@@ -12,7 +12,7 @@ Building a blockchain in Go from scratch walkthrough part 1
 4. Create an actual hash on info
 
 5. Take created hash and push it into the hash field of the block
-(where [:] is a slice referencing to the whole array)
+   NOTE! [:] is a slice referencing to the whole array)
 
 6. NOTE! SHA256 is really simple comparing to the real way to calculate a hash in the blockchain 
 
@@ -36,4 +36,35 @@ Building a blockchain in Go from scratch walkthrough part 1
 13. Run a for loop to see the blockchain
 
 13. RUN go run main.go
+
+Building a blockchain in Go from scratch walkthrough part 2
+
+1. Clean up: 
+- create  `blockchain` folder with `block.go` inside of it
+- rename `package main` into `package blockchain`
+- make `blocks` field public by replacing it with `Blocks`
+- add `github.com/monkrus/golang-blockchain` to import in `main.go`
+- please note `main.go` will now have less lines of code
+
+2. Create proof.go
+
+3. Set up difficulty
+
+4. Create ProofOfWork struct
+
+5. Create function NewProof
+- create a target 
+- NOTE!  One of our hashes has 256 bytes 
+- NOTE! left shift is the same as multiplication by 2
+- << is used for "times two" and >> is for "divided by two"
+
+6. Create a ToHex utility function
+
+7. Modify CreateBlock function
+
+8. Delete DeriveHash function
+
+9. Create Validate method
+
+10. Add POW to main.go
 
