@@ -1,15 +1,5 @@
-<h1 align="center">Welcome to Go Building a Blockchain in Go tutorial Walkthrough 👋</h1>
-
-<p>
-
-  <img alt="Part" src="https://img.shields.io/badge/version-01-blue.svg?cacheSeconds=2592000" />
-
-</p>
-
-### 🏠 [Homepage](https://www.youtube.com/watch?v=mYlHT9bB6OE&t=759s)
-
-## Part 1
-```sh
+# golang-blockchain
+Building a blockchain in Go from scratch walkthrough part 1
 
 1. go mod init github.com/monkrus/golang-blockchain.git 
 
@@ -47,7 +37,7 @@
 
 13. RUN go run main.go
 
-## Part 2
+Building a blockchain in Go from scratch walkthrough part 2
 
 1. Clean up: 
 - create  `blockchain` folder with `block.go` inside of it
@@ -78,19 +68,3 @@
 
 10. Add POW to main.go
 
-
-
-```
-
-## Author
-👤 ** Tensor Programming **
-
-
-## Reviewer
-👤 ** monkrus **
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
