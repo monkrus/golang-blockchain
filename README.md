@@ -8,6 +8,19 @@
 
 ### 🏠 [Homepage](https://www.youtube.com/watch?v=mYlHT9bB6OE&t=759s)
 
+## Author
+👤 ** Tensor Programming **
+
+## Reviewer
+👤 ** monkrus **
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+
+
 ## Part 1
 ```sh
 
@@ -47,7 +60,9 @@
 
 13. RUN go run main.go
 
+```
 ## Part 2
+```sh
 
 1. Clean up: 
 - create  `blockchain` folder with `block.go` inside of it
@@ -77,20 +92,5 @@
 9. Create Validate method
 
 10. Add POW to main.go
-
-
-
 ```
 
-## Author
-👤 ** Tensor Programming **
-
-
-## Reviewer
-👤 ** monkrus **
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
